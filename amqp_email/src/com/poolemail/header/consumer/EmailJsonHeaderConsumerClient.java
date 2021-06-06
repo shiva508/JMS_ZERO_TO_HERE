@@ -1,4 +1,4 @@
-package com.poolemail.topic.consumer;
+package com.poolemail.header.consumer;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -9,7 +9,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-public class EmailJsonTopicConsumerClient {
+public class EmailJsonHeaderConsumerClient {
 	
 	public static void main(String[] args) {
 		ConnectionFactory factory = new ConnectionFactory();
