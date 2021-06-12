@@ -9,6 +9,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 import com.rabbitmq.client.Delivery;
 
+//Changes
 public class EmailConsumer {
 	public static void main(String[] args) {
 		ConnectionFactory factory = new ConnectionFactory();
